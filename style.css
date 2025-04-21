@@ -113,7 +113,7 @@ a {
 }
 .navlinks:hover,
 .active {
-  color: var(--primary-pink);
+  color: #472572;
 }
 .hamburger {
   display: none;
@@ -159,7 +159,7 @@ img {
 }
 
 [data-type="border-para"] {
-  border-right: 0.4rem solid var(--primary-pista);
+  border-right: 0.4rem solid #472572;
   text-align: end;
   padding-right: 1rem;
 }
@@ -229,8 +229,9 @@ h2 {
   padding: 0.8rem 1.2rem;
 }
 .content .primary-btn {
-  background-color: rgb(238, 157, 238);
+  background-color: #472572;
   border-radius: 5px;
+  color: var(--secondary-white);
 }
 .primary-btn:hover {
   background: var(--primary-pink);
@@ -280,10 +281,14 @@ h4,
   flex-direction: column;
   gap: 0.5rem;
 }
+.card-info .primary-btn {
+  background-color: #472572;
+  color: var(--secondary-white);
+}
 
 /* --Sale Section-- */
 .sale-product {
-  height: 14rem;
+  height: 20rem;
 }
 .sale-heading {
   color: var(--primary-pink);
@@ -298,7 +303,8 @@ h4,
   gap: 0.8rem;
 }
 .sale-content .primary-btn {
-  background-color: rgb(238, 157, 238);
+  background-color: #472572;
+  color: var(--secondary-white);
   border-radius: 5px;
 }
 
@@ -335,7 +341,7 @@ h4,
 /* Faq Section */
 
 .faq-container {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Twentieth Century", sans-serif;
   width: 100%;
   padding: 40px 30px;
   background: var(--primary-black);
