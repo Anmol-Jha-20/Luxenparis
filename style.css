@@ -67,7 +67,7 @@ header {
   height: 14vh;
 }
 .logo {
-  width: 3rem;
+  width: 5rem;
   aspect-ratio: 1;
   /* background: var(--primary-white); */
   /* transform: rotate(360deg); */
@@ -187,7 +187,7 @@ h2 {
 .break {
   width: 2rem;
   aspect-ratio: 1;
-  background: var(--primary-pista);
+  background: #472572;
   border-radius: 50%;
   display: inline-block;
 }
@@ -221,7 +221,7 @@ h2 {
   max-width: 550px;
 }
 .content h2 {
-  color: violet;
+  color: #472572;
 }
 .primary-btn {
   color: var(--primary-black);
@@ -245,6 +245,9 @@ h2 {
   align-items: center;
   gap: 3rem;
   text-align: center;
+}
+.column h2 {
+  font-family: "Twentieth Century", sans-serif;
 }
 .card-product {
   height: 20rem;
@@ -371,6 +374,101 @@ h4,
 }
 
 /* Footer Section */
+.footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 50px 30px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 180px;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-info p,
+.contact-info a {
+  font-size: 14px;
+  color: #eee;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.exclusive input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: #fff;
+  width: 80%;
+  outline: none;
+}
+
+.exclusive input::placeholder {
+  color: #ccc;
+}
+
+.exclusive button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.exclusive p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 10px 0 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #bbb;
+}
+
 .footer-txt {
   color: var(--primary-white);
   font-size: 1.5rem;
@@ -451,5 +549,16 @@ h4,
 
   .faq-answer {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .exclusive input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
