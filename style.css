@@ -417,7 +417,7 @@ h4,
 .footer {
   background-color: #2d2d2d;
   color: #fff;
-  padding: 50px 30px;
+  padding: 50px 30px 0px;
 }
 
 .footer-container {
@@ -525,6 +525,7 @@ h4,
 
 .why-section h2 {
   font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 40px;
   color: #472572;
 }
