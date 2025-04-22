@@ -170,13 +170,13 @@ img {
 /* Animation styles */
 .fade-out {
   opacity: 0;
-  /* transition: opacity 0.4s ease-in; */
-  transition: opacity 1s ease-in;
+  transition: opacity 0.4s ease-in;
+  /* transition: opacity 1s ease-in; */
 }
 .fade-in {
   opacity: 1;
-  /* transition: opacity 0.4s ease-out; */
-  transition: transform 1s ease-in-out;
+  transition: opacity 0.4s ease-out;
+  /* transition: transform 1s ease-in-out; */
 }
 
 @media (max-width: 768px) {
@@ -189,11 +189,6 @@ img {
   .left-container,
   .right-container {
     align-self: center;
-  }
-
-  #hero-image {
-    width: 200px;
-    height: 200px;
   }
 }
 
@@ -260,6 +255,7 @@ h2 {
 }
 .content h2 {
   color: #472572;
+  font-family: "Times New Roman", Times, serif;
 }
 .primary-btn {
   color: var(--primary-black);
