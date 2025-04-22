@@ -115,7 +115,7 @@ a {
 }
 .navlinks:hover,
 .active {
-  color: #472572;
+  color: #793aca;
 }
 .hamburger {
   display: none;
@@ -161,7 +161,7 @@ img {
 }
 
 [data-type="border-para"] {
-  border-right: 0.4rem solid #472572;
+  border-right: 0.4rem solid #793aca;
   text-align: end;
   padding-right: 1rem;
 }
@@ -218,7 +218,7 @@ h2 {
 .break {
   width: 2rem;
   aspect-ratio: 1;
-  background: #472572;
+  background: #793aca;
   border-radius: 50%;
   display: inline-block;
 }
@@ -254,7 +254,7 @@ h2 {
   max-width: 550px;
 }
 .content h2 {
-  color: #472572;
+  color: #793aca;
   font-family: "Times New Roman", Times, serif;
 }
 .primary-btn {
@@ -263,7 +263,7 @@ h2 {
   padding: 0.8rem 1.2rem;
 }
 .content .primary-btn {
-  background-color: #472572;
+  background-color: #793aca;
   border-radius: 5px;
   color: var(--secondary-white);
 }
@@ -288,7 +288,7 @@ h2 {
 }
 .column h2 {
   font-family: "Twentieth Century", sans-serif;
-  color: #472572;
+  color: #793aca;
 }
 .card-product {
   height: 20rem;
@@ -327,7 +327,7 @@ h4,
   margin-top: 0.5rem;
 }
 .card-info .primary-btn {
-  background-color: #472572;
+  background-color: #793aca;
   color: var(--secondary-white);
 }
 
@@ -336,7 +336,7 @@ h4,
   height: 14rem;
 }
 .sale-heading {
-  color: #472572;
+  color: #793aca;
   font-size: 1.3rem;
   text-transform: uppercase;
 }
@@ -348,7 +348,7 @@ h4,
   gap: 0.8rem;
 }
 .sale-content .primary-btn {
-  background-color: #472572;
+  background-color: #793aca;
   color: var(--secondary-white);
   border-radius: 5px;
 }
@@ -529,7 +529,7 @@ h4,
   font-size: 32px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 40px;
-  color: #472572;
+  color: #793aca;
 }
 
 .features {
@@ -753,7 +753,7 @@ h4,
 
   /* Existing sale section styles */
   .sale-heading {
-    color: #472572;
+    color: #793aca;
     font-size: 1.3rem;
     text-transform: uppercase;
   }
@@ -768,7 +768,7 @@ h4,
   }
 
   .sale-content .primary-btn {
-    background-color: #472572;
+    background-color: #793aca;
     color: var(--secondary-white);
     border-radius: 5px;
   }
@@ -854,7 +854,7 @@ h4,
 }
 
 .keywords-wrapper span:hover {
-  background-color: #472572;
+  background-color: #793aca;
   color: #fff;
   cursor: pointer;
 }
