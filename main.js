@@ -7,7 +7,7 @@ burger.addEventListener("click", () => {
 
 const images = [
   "images/topNeon.png",
-  "images/bubblegum.png",
+  "images/bubblegum1.png",
   "images/oceara.png",
   "images/satisfya.png",
 ];

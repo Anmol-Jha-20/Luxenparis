@@ -170,11 +170,31 @@ img {
 /* Animation styles */
 .fade-out {
   opacity: 0;
-  transition: opacity 0.4s ease-in;
+  /* transition: opacity 0.4s ease-in; */
+  transition: opacity 1s ease-in;
 }
 .fade-in {
   opacity: 1;
-  transition: opacity 0.4s ease-out;
+  /* transition: opacity 0.4s ease-out; */
+  transition: transform 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-container,
+  .right-container {
+    align-self: center;
+  }
+
+  #hero-image {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* ----------Slider----------- */
