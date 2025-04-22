@@ -271,6 +271,12 @@ h2 {
   background: var(--primary-pink);
 }
 
+@media (max-width: 768px) {
+  .content h2 {
+    font-size: 3rem;
+  }
+}
+
 /* --Selling Products-- */
 .column {
   display: flex;
